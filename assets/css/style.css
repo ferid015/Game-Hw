@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+
+
+:root {
+    --RubTit: 'Rubik Bubbles', cursive;
+}
+
+body {
+    background-image: url(../img/game.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+/* log in page  start */
+
+
+#log_in_pg {
+    padding-bottom: 20px;
+    max-width: 780px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(245, 222, 179, 0.932);
+    margin-top: 140px;
+}
+
+
+
+#log_in_pg form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+#log_in_pg label {
+    font: 400 22px var(--RubTit);
+    text-align: center;
+    color: rgb(151, 83, 5);
+
+}
+
+#log_in_pg input {
+    width: 450px;
+    padding: 20px 0 20px 15px;
+    border: none;
+    border-radius: 6px;
+    font: 400 20px var(--RubTit);
+    margin: 50px 0;
+    border-bottom: 1px solid rgb(112, 45, 1);
+
+}
+
+
+
+#log_in_pg a {
+    text-decoration: none;
+    padding: 20px 70px;
+    font: 400 25px var(--RubTit);
+    background-color: rgba(255, 118, 5, 0);
+    color: rgba(255, 118, 5, 0);
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(112, 45, 1);
+}
+
+
+/* log in page end */
+
+
+
+
+
+/* levels page start */
+
+
+#level_page {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#greet {
+    padding-top: 200px;
+    text-align: center;
+    font: 400 32px var(--RubTit);
+    color: black;
+
+}
+
+#level_page div {
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin-top: 50px;
+}
+
+#level_page div:hover {
+    transition: all 0.9s;
+    transform: scale(1.2);
+}
+
+
+#asand {
+    background-color: rgba(0, 161, 40, 0.89);
+}
+
+#cetin {
+    background-color: rgba(182, 4, 4, 0.849);
+}
+
+#level_page div a {
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font: 400 32px var(--RubTit);
+    color: white;
+    opacity: 0.8;
+}
+
+#level_page div a:hover {
+    transition: all 0.9s;
+    opacity: 1;
+}
+
+
+
+/* levels page end */
+
+
+
+/* easy  game start */
+
+#easy_game {
+    padding-bottom: 20px;
+    max-width: 780px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(245, 222, 179, 0.932);
+    margin-top: 140px;
+}
+
+#easy_game form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#easy_game h1 {
+    text-align: center;
+    font: 400 20px var(--RubTit);
+    padding-top: 30px;
+}
+
+
+#easy_game input {
+    width: 250px;
+    padding: 10px 0 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font: 400 20px var(--RubTit);
+    margin: 50px 0;
+    border-bottom: 1px solid rgb(112, 45, 1);
+}
+
+#easy_game #easy_btn {
+    width: 100px;
+    height: 40px;
+    font: 400 25px var(--RubTit);
+    background-color: rgb(255, 5, 5);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.993);
+
+}
